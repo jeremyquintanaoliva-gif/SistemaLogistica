@@ -31,4 +31,16 @@ public class Paquete {
                 ", destino='" + destino + '\'' +
                 '}';
     }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public String getDestino() {
+        return destino;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
 }
