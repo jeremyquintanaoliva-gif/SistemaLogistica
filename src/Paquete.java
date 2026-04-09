@@ -5,6 +5,12 @@ public class Paquete {
     private double peso;
     private String destino;
 
+    public Paquete(String codigo, double peso, String destino) {
+        this.codigo = codigo;
+        this.peso = peso;
+        this.destino = destino;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
