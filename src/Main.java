@@ -12,5 +12,8 @@ public class Main {
         almacen.enviarACamion(0,2);
         almacen.enviarACamion(1,2);
         almacen.enviarACamion(2,2);
+
+        almacen.mantenimientoSeguridad(30);
+        almacen.mostrarInformeFinal();
     }
 }
